@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    padding:0;
+}
+img {
+    object-fit: cover;
+    width:100%;
+    height:auto;
+}
+
+.slider {
+    margin: 10px 0;
+    width: 580px; /* Update to your slider width */
+    height: 250px; /* Update to your slider height */
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slider li {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
